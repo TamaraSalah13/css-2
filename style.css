@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    background-color: black;
+}
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo img{
+    width: 50%;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul li{
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+.protfolio .containerhead{
+
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+}
+
+.protfolio  .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.protfolio-items{
+    width: 30%;
+}
+.protfolio img{
+    width: 100%;
+    display: block;
+}
